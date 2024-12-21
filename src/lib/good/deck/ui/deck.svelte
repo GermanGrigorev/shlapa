@@ -7,14 +7,14 @@
 	let inputValue = $state<string>('');
 
 	onMount(async () => {
-		const db = await import('$lib/shared/indexedDb');
+		const db = await import('$lib/common/indexedDb');
 		const res = await db.dbActions.getAllSigns();
 		$deckStore = res;
 		console.log(res);
 	});
 
 	const handleSubmit = async () => {
-		const db = await import('$lib/shared/indexedDb');
+		const db = await import('$lib/common/indexedDb');
 		const game = await db.dbActions.createGame({ date: new Date() });
 		if (game) {
 			const signified = await db.dbActions.createSignified({
