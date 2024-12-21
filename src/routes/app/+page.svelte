@@ -1,6 +1,6 @@
 <script>
 	import { goto } from '$app/navigation';
-	import { Cta } from '$lib/component/cta';
+	import { Cta } from '$lib/component';
 	import { routes } from '../routes';
 </script>
 
