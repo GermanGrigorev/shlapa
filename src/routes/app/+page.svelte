@@ -4,7 +4,7 @@
 	import { routes } from '../routes';
 </script>
 
-<div class="containerMy">
+<div class="">
 	<div>
 		<h1 class="text-3xl">Shlapa</h1>
 
@@ -22,10 +22,4 @@
 </div>
 
 <style>
-	.containerMy {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		min-height: 100vh;
-	}
 </style>

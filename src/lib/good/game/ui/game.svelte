@@ -10,6 +10,8 @@
 	};
 </script>
 
-<Cta class="w-full" onclick={handleChange}>
-	<Signified isAlwaysVisible text={current?.text} />
-</Cta>
+<div class="flex justify-center pt-10">
+	<Cta class=" h-96 w-96" onclick={handleChange}>
+		<Signified isAlwaysVisible text={current?.text} />
+	</Cta>
+</div>

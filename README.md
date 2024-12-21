@@ -1,3 +1,10 @@
+# App name
+Shlapa Shutihi.com
+
+# Shlapa url
+
+https://7xl2-z0fk-tke9.gw-1a.dockhost.net/
+
 # VK VIDEO PLAYLIST
 
 https://vkvideo.ru/playlist/102501392_50641170

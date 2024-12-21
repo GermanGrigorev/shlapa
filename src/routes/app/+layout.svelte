@@ -9,7 +9,9 @@
 </script>
 
 <div class=" min-h-screen bg-amber-50 text-amber-950 dark:bg-amber-950 dark:text-amber-50">
-	{@render children()}
+	<div class=" mx-auto max-w-4xl">
+		{@render children()}
+	</div>
 	<div>
 		<BottomNav {activeUrl} position="absolute" classInner="grid-cols-3">
 			<BottomNavItem href={routes.home} btnName="Home">
